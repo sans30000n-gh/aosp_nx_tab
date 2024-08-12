@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nx_tab.mk
+    $(LOCAL_DIR)/aosp_nx_tab.mk
