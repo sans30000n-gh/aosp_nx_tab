@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
 
 # Inherit NX-specific LineageOS additions.
 include device/nintendo/nx/lineage.mk
@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit device configuration for nx.
 $(call inherit-product, device/nintendo/nx/device.mk)
 
-PRODUCT_NAME := lineage_nx_tab
+PRODUCT_NAME := aosp_nx_tab
 PRODUCT_DEVICE := nx_tab
 PRODUCT_BRAND := NINTENDO
 PRODUCT_MANUFACTURER := NINTENDO
